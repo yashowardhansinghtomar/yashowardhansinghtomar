@@ -21,6 +21,7 @@ My background combines hands-on LLM evaluation work, production voice AI integra
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
 | [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) | Human-in-the-loop LLM evaluation, pairwise scoring, RLHF-style rubrics, failure-mode tagging | Python |
+| [voice-ai-agent-demo](https://github.com/yashowardhansinghtomar/voice-ai-agent-demo) | Testable STT -> assistant -> TTS voice-agent pipeline with provider boundaries and local mocks | Python |
 | [real_estate_chatbot_ollama](https://github.com/yashowardhansinghtomar/real_estate_chatbot_ollama) | Offline multi-agent real estate assistant with image routing, legal FAQ retrieval, and local LLM execution | Python, Gradio, LangChain, FAISS, Ollama |
 | [PDF-Question-Answering-System](https://github.com/yashowardhansinghtomar/PDF-Question-Answering-System) | PDF ingestion, chunking, vector retrieval, and grounded question answering | Streamlit, LangChain, FAISS, Groq |
 | [Text-to-SQL-model](https://github.com/yashowardhansinghtomar/Text-to-SQL-model) | Natural-language to SQL prototype with local LLM generation and read-only query guardrails | Streamlit, Ollama, MySQL |
@@ -47,6 +48,8 @@ I have integrated TTS and STT models into a production AI calling workflow and c
 - Retrieval-backed assistants
 - Local-first LLM applications
 
+The public [voice-ai-agent-demo](https://github.com/yashowardhansinghtomar/voice-ai-agent-demo) repo shows this as a small, testable pipeline with replaceable STT, assistant, and TTS provider boundaries.
+
 ## Tooling
 
 | Area | Tools |
@@ -62,4 +65,3 @@ I have integrated TTS and STT models into a production AI calling workflow and c
 
 - LinkedIn: [linkedin.com/in/yashowardhansinghtomar](https://www.linkedin.com/in/yashowardhansinghtomar)
 - Email: [yashtomar10122@gmail.com](mailto:yashtomar10122@gmail.com)
-
