@@ -4,6 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yashowardhansinghtomar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashowardhansinghtomar)
 [![Email](https://img.shields.io/badge/Email-yashtomar10122%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yashtomar10122@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-yashowardhansinghtomar.github.io-111827?style=flat-square&logo=githubpages&logoColor=white)](https://yashowardhansinghtomar.github.io/)
 
 I work on practical AI systems where model behavior matters: evaluation rubrics, prompt testing, retrieval workflows, voice AI pipelines, and local LLM applications.
 
