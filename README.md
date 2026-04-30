@@ -21,6 +21,7 @@ My background combines hands-on LLM evaluation work, production voice AI integra
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
 | [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) | Config-driven LLM evaluation workbench with JSONL validation, pairwise scoring, RLHF-style rubrics, failure-mode analysis, and Markdown/JSON reports | Python |
+| [rag-evaluation-workbench](https://github.com/yashowardhansinghtomar/rag-evaluation-workbench) | RAG evaluation workbench for retrieval recall, citation precision/recall, required-fact coverage, groundedness checks, and failure tags | Python |
 | [voice-ai-agent-demo](https://github.com/yashowardhansinghtomar/voice-ai-agent-demo) | Voice-agent framework demo with provider adapters, streaming simulation, per-stage latency traces, batch scenarios, and evaluation reports | Python |
 | [real_estate_chatbot_ollama](https://github.com/yashowardhansinghtomar/real_estate_chatbot_ollama) | Offline multi-agent real estate assistant with image routing, legal FAQ retrieval, and local LLM execution | Python, Gradio, LangChain, FAISS, Ollama |
 | [PDF-Question-Answering-System](https://github.com/yashowardhansinghtomar/PDF-Question-Answering-System) | PDF ingestion, chunking, vector retrieval, and grounded question answering | Streamlit, LangChain, FAISS, Groq |
@@ -39,6 +40,10 @@ I have worked on LLM response evaluation workflows involving:
 
 The public [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) repo is a reusable version of this style of work, with configurable rubrics, dataset validation, scoring, agreement checks, and generated reports.
 
+## RAG Evaluation Work
+
+I build retrieval workflows with attention to evidence quality, citation behavior, and answer grounding. The public [rag-evaluation-workbench](https://github.com/yashowardhansinghtomar/rag-evaluation-workbench) repo evaluates RAG outputs for retrieval recall, citation precision and recall, required-fact coverage, grounded answer rate, and failure-mode tags.
+
 ## Voice AI And Applied Systems
 
 I have integrated TTS and STT models into a production AI calling workflow and continue to build small public prototypes around:
@@ -56,7 +61,7 @@ The public [voice-ai-agent-demo](https://github.com/yashowardhansinghtomar/voice
 | --- | --- |
 | LLM apps | LangChain, OpenAI API, Groq, Ollama |
 | Evaluation | Pairwise rubrics, prompt test sets, failure tagging |
-| Retrieval | FAISS, embeddings, document chunking |
+| Retrieval | FAISS, embeddings, document chunking, retrieval evaluation, citation checks |
 | Interfaces | Streamlit, Gradio |
 | Voice AI | STT/TTS integration, provider boundaries, latency tracing, transcription workflows |
 | Core language | Python |
