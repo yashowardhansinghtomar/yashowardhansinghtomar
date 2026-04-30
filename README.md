@@ -20,7 +20,7 @@ My background combines hands-on LLM evaluation work, production voice AI integra
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
-| [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) | Human-in-the-loop LLM evaluation, pairwise scoring, RLHF-style rubrics, failure-mode tagging | Python |
+| [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) | Config-driven LLM evaluation workbench with JSONL validation, pairwise scoring, RLHF-style rubrics, failure-mode analysis, and Markdown/JSON reports | Python |
 | [voice-ai-agent-demo](https://github.com/yashowardhansinghtomar/voice-ai-agent-demo) | Testable STT -> assistant -> TTS voice-agent pipeline with provider boundaries and local mocks | Python |
 | [real_estate_chatbot_ollama](https://github.com/yashowardhansinghtomar/real_estate_chatbot_ollama) | Offline multi-agent real estate assistant with image routing, legal FAQ retrieval, and local LLM execution | Python, Gradio, LangChain, FAISS, Ollama |
 | [PDF-Question-Answering-System](https://github.com/yashowardhansinghtomar/PDF-Question-Answering-System) | PDF ingestion, chunking, vector retrieval, and grounded question answering | Streamlit, LangChain, FAISS, Groq |
@@ -37,7 +37,7 @@ I have worked on LLM response evaluation workflows involving:
 - Ground-truth corrections and preference judgments
 - Failure-mode analysis for coding and data-science prompts
 
-The public [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) repo is a sanitized, reusable version of this style of work.
+The public [llm-evaluation-lab](https://github.com/yashowardhansinghtomar/llm-evaluation-lab) repo is a reusable version of this style of work, with configurable rubrics, dataset validation, scoring, agreement checks, and generated reports.
 
 ## Voice AI And Applied Systems
 
